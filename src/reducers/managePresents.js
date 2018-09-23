@@ -6,6 +6,6 @@ function managaPresents(action, state) {
     case "INCREASE":
     return {true}
   default:
-    return state
+    return state;
   }
 }
