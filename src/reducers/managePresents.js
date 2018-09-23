@@ -2,7 +2,10 @@ export function managePresents(state, action){
 }
 
 function managaPresents(action, state) {
-  if (action.type === "INCREASE") {
-    return true
+  switch (action.type)
+    case "INCREASE":
+    return {true}
+  default:
+    return state
   }
 }
